@@ -1,0 +1,29 @@
+{
+    "configurations": [
+    
+        {
+            "type": "java",
+            "name": "CodeGenerator",
+            "request": "launch",
+            "mainClass": "com.wms.common.CodeGenerator",
+            "projectName": "wms"
+        },
+        {
+            "type": "java",
+            "name": "VmsApplication",
+            "request": "launch",
+            "mainClass": "com.example.vms.VmsApplication",
+            "projectName": "vms"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WmsApplication<wms>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.wms.WmsApplication",
+            "projectName": "wms",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

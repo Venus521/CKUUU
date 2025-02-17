@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarot & Lenormand Readings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Tarot & Lenormand Readings</h1>
+    <nav>
+      <button id="tarot-btn">Tarot</button>
+      <button id="lenormand-btn">Lenormand</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tarot-section" class="active">
+      <h2>Tarot Reading</h2>
+      <div class="deck-select">
+        <button class="deck-btn" data-deck="36">36-Card Deck</button>
+        <button class="deck-btn" data-deck="40">40-Card Deck</button>
+      </div>
+      <div class="reading-area"></div>
+    </section>
+
+    <section id="lenormand-section">
+      <h2>Lenormand Reading</h2>
+      <div class="deck-select">
+        <button class="deck-btn" data-deck="36">36-Card Deck</button>
+        <button class="deck-btn" data-deck="40">40-Card Deck</button>
+      </div>
+      <div class="reading-area"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

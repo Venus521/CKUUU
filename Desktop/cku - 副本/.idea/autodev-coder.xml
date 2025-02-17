@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoDevCoderSettings">
+    <option name="customEngineServerParam" value="https://api.deepseek.com/v1/chat/completions" />
+    <option name="customEngineTokenParam" value="sk-9f08ac2288a842dbb71cc92e63615c49" />
+  </component>
+</project>

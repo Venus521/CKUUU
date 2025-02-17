@@ -1,0 +1,15 @@
+com\wms\service\impl\GoodsServiceImpl.class
+com\wms\mapper\StorageMapper.class
+com\wms\entity\Goodstype.class
+com\wms\service\MenuService.class
+com\wms\mapper\RecordMapper.class
+com\wms\mapper\MenuMapper.class
+com\wms\mapper\GoodsMapper.class
+com\wms\service\GoodstypeService.class
+com\wms\service\StorageService.class
+com\wms\entity\Record.class
+com\wms\entity\Storage.class
+com\wms\entity\Goods.class
+com\wms\service\GoodsService.class
+com\wms\entity\Menu.class
+com\wms\service\impl\StorageServiceImpl.class
